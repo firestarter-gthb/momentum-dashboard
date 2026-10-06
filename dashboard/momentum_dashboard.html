@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum Seasonality Dashboard - DataSente</title>
+    
+    <!-- Google Fonts: Space Grotesk & Space Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- ApexCharts -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <!-- Language Switcher -->
+        <div style="text-align: right; margin-bottom: 20px;">
+            <a href="momentum_dashboard.html" style="font-weight: bold; margin-right: 10px; color: var(--link); text-decoration: underline;">NL</a>
+            <a href="momentum_dashboard_en.html" style="color: var(--muted); text-decoration: none;">EN</a>
+        </div>
+
+        <header>
+            <div class="brand">
+                <div class="brand-mark"></div>
+                DataSente
+            </div>
+            <h1>Momentum Seasonality</h1>
+            <p class="subtitle">Historische prestaties van Momentum ETF's (Vanaf 2007)</p>
+            <div class="last-updated">
+                Laatst bijgewerkt: <span id="update-time">Laden...</span>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('main-index')">Algemene Momentum Index</button>
+            <button class="tab-btn" onclick="switchTab('drill-down')">Bekijk Individuele ETF's</button>
+        </div>
+
+        <!-- TAB 1: Main Index -->
+        <div id="main-index" class="tab-content active-tab">
+            <section class="chart-section brutal-panel">
+                <div class="section-header">
+                    <h2>Gemiddeld Rendement (OpEx Cyclus)</h2>
+                    <p>Vergelijking van de gemiddelde return per OpEx-cyclus (3e vrijdag t/m 3e vrijdag).</p>
+                </div>
+                <div id="bar-chart" class="chart-container"></div>
+            </section>
+
+            <section class="chart-section brutal-panel mt-4">
+                <div class="section-header">
+                    <h2>Momentum Index Heatmap (Equal Weight)</h2>
+                    <p>De 4 Momentum ETF's samengevoegd, allemaal met een gelijke weging (25% per ETF).</p>
+                </div>
+                <div id="hitrate-index" class="chart-container" style="margin-bottom: 5px;"></div>
+                <div id="heatmap-index" class="chart-container"></div>
+            </section>
+        </div>
+
+        <!-- TAB 2: Drilldown -->
+        <div id="drill-down" class="tab-content">
+            <div class="grid-2-col">
+                <section class="chart-section brutal-panel">
+                    <div class="section-header">
+                        <h2>US Large Cap Momentum (MTUM)</h2>
+                    </div>
+                    <div id="hitrate-mtum" class="chart-container" style="margin-bottom: 5px;"></div>
+                    <div id="heatmap-mtum" class="chart-container"></div>
+                </section>
+                
+                <section class="chart-section brutal-panel">
+                    <div class="section-header">
+                        <h2>US Quant Momentum (QMOM)</h2>
+                    </div>
+                    <div id="hitrate-qmom" class="chart-container" style="margin-bottom: 5px;"></div>
+                    <div id="heatmap-qmom" class="chart-container"></div>
+                </section>
+
+                <section class="chart-section brutal-panel">
+                    <div class="section-header">
+                        <h2>US Small Cap Momentum (DWAS)</h2>
+                    </div>
+                    <div id="hitrate-dwas" class="chart-container" style="margin-bottom: 5px;"></div>
+                    <div id="heatmap-dwas" class="chart-container"></div>
+                </section>
+
+                <section class="chart-section brutal-panel">
+                    <div class="section-header">
+                        <h2>DWA Momentum (PDP)</h2>
+                    </div>
+                    <div id="hitrate-pdp" class="chart-container" style="margin-bottom: 5px;"></div>
+                    <div id="heatmap-pdp" class="chart-container"></div>
+                </section>
+
+                <section class="chart-section brutal-panel" style="grid-column: 1 / -1;">
+                    <div class="section-header">
+                        <h2>S&P 500 Benchmark (SPY)</h2>
+                    </div>
+                    <div id="hitrate-spy" class="chart-container" style="margin-bottom: 5px;"></div>
+                    <div id="heatmap-spy" class="chart-container"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active-tab');
+            });
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            document.getElementById(tabId).classList.add('active-tab');
+            event.currentTarget.classList.add('active');
+        }
+    </script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
