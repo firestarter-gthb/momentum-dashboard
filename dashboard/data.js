@@ -4532,7 +4532,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Dec",
-                        "y": 1.26
+                        "y": 1.25
                     }
                 ]
             },
