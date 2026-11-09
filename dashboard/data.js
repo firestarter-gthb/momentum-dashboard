@@ -29,7 +29,7 @@ const dashboardData = {
                     0.58,
                     1.64,
                     -0.88,
-                    2.08,
+                    1.44,
                     0.9
                 ]
             },
@@ -47,7 +47,7 @@ const dashboardData = {
                     0.61,
                     1.7,
                     -0.09,
-                    2.04,
+                    0.96,
                     0.65
                 ]
             },
@@ -65,7 +65,7 @@ const dashboardData = {
                     1.33,
                     0.78,
                     -0.16,
-                    3.3,
+                    2.29,
                     -0.18
                 ]
             },
@@ -83,7 +83,7 @@ const dashboardData = {
                     0.46,
                     1.77,
                     -1.65,
-                    2.41,
+                    2.31,
                     1.36
                 ]
             },
@@ -101,7 +101,7 @@ const dashboardData = {
                     -0.06,
                     2.31,
                     -1.6,
-                    0.56,
+                    0.2,
                     1.75
                 ]
             },
@@ -119,7 +119,7 @@ const dashboardData = {
                     0.37,
                     1.67,
                     -1.01,
-                    1.09,
+                    0.85,
                     1.66
                 ]
             }
@@ -1179,7 +1179,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": null
+                        "y": -6.63
                     },
                     {
                         "x": "Dec",
@@ -1923,7 +1923,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": null
+                        "y": -13.01
                     },
                     {
                         "x": "Dec",
@@ -2508,7 +2508,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": null
+                        "y": -7.71
                     },
                     {
                         "x": "Dec",
@@ -3305,7 +3305,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": null
+                        "y": 0.91
                     },
                     {
                         "x": "Dec",
@@ -4367,7 +4367,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": null
+                        "y": -6.71
                     },
                     {
                         "x": "Dec",
@@ -5038,7 +5038,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Jun",
-                        "y": 3.36
+                        "y": 3.35
                     },
                     {
                         "x": "Jul",
@@ -5242,7 +5242,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Apr",
-                        "y": 5.7
+                        "y": 5.69
                     },
                     {
                         "x": "May",
@@ -5429,7 +5429,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": null
+                        "y": -3.66
                     },
                     {
                         "x": "Dec",
@@ -5496,8 +5496,8 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": 5.263157894736842,
-                        "hitRate": 63
+                        "y": 4.0,
+                        "hitRate": 60
                     },
                     {
                         "x": "Dec",
@@ -5563,8 +5563,8 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": 4.615384615384616,
-                        "hitRate": 62
+                        "y": 2.857142857142856,
+                        "hitRate": 57
                     },
                     {
                         "x": "Dec",
@@ -5630,8 +5630,8 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": 12.0,
-                        "hitRate": 80
+                        "y": 9.090909090909093,
+                        "hitRate": 73
                     },
                     {
                         "x": "Dec",
@@ -5697,8 +5697,8 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": 5.714285714285717,
-                        "hitRate": 64
+                        "y": 6.666666666666663,
+                        "hitRate": 67
                     },
                     {
                         "x": "Dec",
@@ -5764,8 +5764,8 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": 5.263157894736842,
-                        "hitRate": 63
+                        "y": 4.0,
+                        "hitRate": 60
                     },
                     {
                         "x": "Dec",
@@ -5831,8 +5831,8 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": 7.368421052631579,
-                        "hitRate": 68
+                        "y": 6.0,
+                        "hitRate": 65
                     },
                     {
                         "x": "Dec",
