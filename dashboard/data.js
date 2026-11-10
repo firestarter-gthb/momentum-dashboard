@@ -29,7 +29,7 @@ const dashboardData = {
                     0.58,
                     1.64,
                     -0.88,
-                    1.44,
+                    1.71,
                     0.9
                 ]
             },
@@ -47,7 +47,7 @@ const dashboardData = {
                     0.61,
                     1.7,
                     -0.09,
-                    0.96,
+                    1.26,
                     0.65
                 ]
             },
@@ -65,7 +65,7 @@ const dashboardData = {
                     1.33,
                     0.78,
                     -0.16,
-                    2.29,
+                    2.65,
                     -0.18
                 ]
             },
@@ -83,7 +83,7 @@ const dashboardData = {
                     0.46,
                     1.77,
                     -1.65,
-                    2.31,
+                    2.58,
                     1.36
                 ]
             },
@@ -101,7 +101,7 @@ const dashboardData = {
                     -0.06,
                     2.31,
                     -1.6,
-                    0.2,
+                    0.36,
                     1.75
                 ]
             },
@@ -119,7 +119,7 @@ const dashboardData = {
                     0.37,
                     1.67,
                     -1.01,
-                    0.85,
+                    0.96,
                     1.66
                 ]
             }
@@ -1179,7 +1179,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": -6.63
+                        "y": -2.77
                     },
                     {
                         "x": "Dec",
@@ -1923,7 +1923,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": -13.01
+                        "y": -8.76
                     },
                     {
                         "x": "Dec",
@@ -2508,7 +2508,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": -7.71
+                        "y": -3.84
                     },
                     {
                         "x": "Dec",
@@ -3305,7 +3305,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": 0.91
+                        "y": 4.91
                     },
                     {
                         "x": "Dec",
@@ -4367,7 +4367,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": -6.71
+                        "y": -3.37
                     },
                     {
                         "x": "Dec",
@@ -4532,7 +4532,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Dec",
-                        "y": 1.25
+                        "y": 1.26
                     }
                 ]
             },
@@ -4659,7 +4659,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Apr",
-                        "y": -1.68
+                        "y": -1.67
                     },
                     {
                         "x": "May",
@@ -5242,7 +5242,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Apr",
-                        "y": 5.69
+                        "y": 5.7
                     },
                     {
                         "x": "May",
@@ -5429,7 +5429,7 @@ const dashboardData = {
                     },
                     {
                         "x": "Nov",
-                        "y": -3.66
+                        "y": -1.38
                     },
                     {
                         "x": "Dec",
